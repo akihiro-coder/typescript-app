@@ -1,0 +1,21 @@
+{
+  "name": "typescript-basics-practice",
+  "version": "1.0.0",
+  "description": "TypeScript基礎練習用プロジェクト",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node",
+    "build": "tsc",
+    "practice:basic": "ts-node src/types/basic.ts",
+    "practice:interfaces": "ts-node src/types/interfaces.ts",
+    "practice:unions": "ts-node src/types/unions.ts",
+    "practice:functions": "ts-node src/types/functions.ts",
+    "practice:advanced": "ts-node src/types/advanced.ts",
+    "practice:all": "npm run practice:basic && npm run practice:interfaces && npm run practice:unions && npm run practice:functions && npm run practice:advanced"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
