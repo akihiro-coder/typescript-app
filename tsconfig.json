@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                    // 出力するJavaScriptのバージョン
+    "module": "ESNext",                    // モジュールシステム
+    "lib": ["ES2020"],                     // 使用可能なライブラリ
+    "outDir": "./dist",                    // 出力先ディレクトリ
+    "rootDir": "./src",                    // ソースファイルのルートディレクトリ
+    "strict": true,                        // 厳密な型チェック（学習に重要）
+    "esModuleInterop": true,               // CommonJSとESモジュールの相互運用
+    "skipLibCheck": true,                  // ライブラリファイルの型チェックをスキップ
+    "forceConsistentCasingInFileNames": true // ファイル名の大文字小文字を厳密にチェック
+  },
+  "include": ["src/**/*"],                 // コンパイル対象のファイル
+  "exclude": ["node_modules", "dist"]      // コンパイル除外するファイル
+}
